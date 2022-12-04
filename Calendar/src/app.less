@@ -1,0 +1,43 @@
+.date-tool-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.date-control-container {
+  flex: 1;
+  gap: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.date-control-btn {
+  cursor: pointer;
+  user-select: none;
+}
+.today-btn {
+}
+
+.calendar-container {
+  width: 100%;
+  border: 1px solid #f0f0f0;
+}
+
+.weeks-container {
+  display: flex;
+  border-bottom: 1px solid #f0f0f0;
+  div {
+    flex: 1;
+  }
+}
+
+.days-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.day-container {
+  width: calc(100% / 7);
+  min-height: 50px;
+  border: 1px solid #f0f0f0;
+  box-sizing: border-box;
+}
